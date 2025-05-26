@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                 // Target modern Node.js
+    "module": "NodeNext",                // Use Node.js native ES modules
+    "moduleResolution": "NodeNext",      // How module imports are resolved
+    "outDir": "./build",                 // Where to put compiled JavaScript
+    "rootDir": "./",                     // Where your .ts source files are (assuming index.ts is in the root of weather_mcp_client)
+    "esModuleInterop": true,             // Enables compatibility with CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Ensures consistent file casing
+    "strict": true,                      // Enable all strict type-checking options
+    "skipLibCheck": true,                // Skip type checking of declaration files
+    "resolveJsonModule": true            // Allows importing JSON files
+  },
+  "include": [
+    "*.ts"                               // Compile all .ts files in the rootDir
+    // If your .ts files are in a "src" subfolder, change rootDir to "./src"
+    // and this to "src/**/*.ts" or ["src/index.ts"]
+  ],
+  "exclude": [
+    "node_modules",                      // Don't compile node_modules
+    "build"                              // Don't try to compile the output directory
+  ]
+}
