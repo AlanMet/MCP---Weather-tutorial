@@ -1,6 +1,6 @@
 # 🌦️ MCP Weather Client/Server (Learning Project)
 
-This project is a hands-on example to understand the **Model Context Protocol (MCP)**. It connects a custom weather tool server to a command-line client using a **local LLM (via Ollama)** for AI-driven, multi-step tool usage. Users input natural language queries, and the LLM dynamically decides which weather tools to use.
+This project is a hands-on example to understand the **Model Context Protocol (MCP)**. It was modified from the tutorial to use to connect a custom weather tool server to a command-line client using a **local LLM (via Ollama)** for AI-driven, multi-step tool usage. Users input natural language queries, and the LLM dynamically decides which weather tools to use.
 
 Inspired by Anthropic’s MCP quickstart tutorial — adapted for local LLM setups.
 
